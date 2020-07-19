@@ -3,7 +3,7 @@ Service Provider to support Mongo DB operations in Laravel
 
 I built this because I needed it. Report bugs so I can fix it. Send documentation if you feel like it.
 
-###Requirements:
+### Requirements:
 `MongoDB PHP driver`
 
 
@@ -11,7 +11,7 @@ I built this because I needed it. Report bugs so I can fix it. Send documentatio
 |------------|:------------:|:------------------:|--------------:|
 |   1.7.0    |      7       | +Laravel 7 support | July 19, 2020 |
 
-###Installation:
+### Installation:
 1. Place files/folders in their respective directories in laravel installation (/path/to/laravel).
 2. Append the mongoDB service provider (App\Providers\MongoServiceProvider::class) to the 'providers' array in /path/to/laravel/config/app.php.
 3. Update `.env` with mongoDB settings:
