@@ -39,7 +39,7 @@ class HomeController extends Controller
     public function index(MongoDB $mongo)
     {
       $cursor = $mongo
-        ->collection('techproductions')
+        ->collection('collection_name')
         ->query(['author' => 'Stevens Cadet'])
         ->exec();
 
